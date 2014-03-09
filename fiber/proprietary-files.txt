@@ -1,0 +1,4 @@
+#Bluetooth
+etc/rtk8723_bt_config
+etc/rtk8723a
+

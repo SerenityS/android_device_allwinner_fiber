@@ -1,0 +1,20 @@
+on init
+    insmod /nand.ko
+    insmod /touch.ko
+    insmod /keyboard.ko
+    insmod /disp.ko
+    insmod /lcd.ko
+    insmod /hdmi.ko
+#insmod tp
+	insmod /inet_ctp.ko
+	insmod /ft5x06_ts.ko
+	insmod /ft5x02.ko
+	insmod /ft5402.ko
+	insmod /sis925x.ko
+	insmod /gt801_2plus1.ko
+	insmod /byd693x-ts.ko
+	insmod /ct36x_ts.ko
+	insmod /zet622x.ko
+	insmod /gslX680.ko
+	insmod /gt9xx.ko		
+	insmod /gslX680OGS.ko
